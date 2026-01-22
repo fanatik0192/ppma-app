@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(Remove-Item \"C:\\\\Users\\\\antoi\\\\.git\\\\index.lock\" -Force -ErrorAction SilentlyContinue)",
+      "Bash(Write-Host \"Lock removed\")"
+    ]
+  }
+}

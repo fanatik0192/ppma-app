@@ -1,0 +1,213 @@
+{
+  "_description": "Donnees structurees pour les algorithmes ML - PPMA",
+  "_lastUpdated": "2025-01-22",
+  "_programmeVersion": "4-jours-PPL-Full",
+
+  "profil": {
+    "nom": "Antoine",
+    "dateDebut": "2024-12-30",
+    "niveau": "BEGINNER",
+    "poids": 70,
+    "taille": 182,
+    "age": 24,
+    "objectifPoids": 80
+  },
+
+  "mesures": {
+    "initial": {
+      "date": "2025-01-22",
+      "poids": 70,
+      "tourTaille": 76,
+      "tourCou": 35,
+      "bfPercent": 11,
+      "lbm": 62.3,
+      "ffmi": 18.8
+    },
+    "actuel": {
+      "date": "2025-01-22",
+      "poids": 70,
+      "tourTaille": 76,
+      "tourCou": 35,
+      "bfPercent": 11,
+      "lbm": 62.3,
+      "ffmi": 18.8
+    },
+    "historique": [
+      {
+        "date": "2025-01-22",
+        "poids": 70,
+        "bfPercent": 11,
+        "ffmi": 18.8
+      }
+    ]
+  },
+
+  "prs": {
+    "bench": {
+      "current": 75,
+      "estimated1RM": 75,
+      "ci95": [71, 79],
+      "ratioBW": 1.07,
+      "date": "2025-01-22"
+    },
+    "squat": {
+      "current": 85,
+      "estimated1RM": 85,
+      "ci95": [81, 89],
+      "ratioBW": 1.21,
+      "date": "2025-01-22"
+    },
+    "deadlift": {
+      "current": null,
+      "estimated1RM": null,
+      "ci95": [null, null],
+      "ratioBW": null,
+      "date": null
+    },
+    "ohp": {
+      "current": null,
+      "estimated1RM": null,
+      "ci95": [null, null],
+      "ratioBW": null,
+      "date": null
+    }
+  },
+
+  "banister": {
+    "params": {
+      "p0": 100,
+      "k1": 1.0,
+      "k2": 2.0,
+      "tau1": 42,
+      "tau2": 7
+    },
+    "modifiers": {
+      "sleep": -0.20,
+      "stress": 0,
+      "nutrition": 0
+    },
+    "current": {
+      "fitness": 0,
+      "fatigue": 0,
+      "performance": 100,
+      "readiness": 50,
+      "trend": "baseline"
+    },
+    "historique": []
+  },
+
+  "acwr": {
+    "current": {
+      "acute": 0,
+      "chronic": 0,
+      "ratio": null,
+      "zone": "baseline"
+    },
+    "zones": {
+      "undertraining": [0, 0.8],
+      "sweetSpot": [0.8, 1.3],
+      "caution": [1.3, 1.5],
+      "danger": [1.5, 999]
+    },
+    "historique": []
+  },
+
+  "sessions": [],
+
+  "semaines": [
+    {
+      "numero": 1,
+      "macrocycle": 1,
+      "phase": "Adaptation",
+      "dateDebut": "2024-12-30",
+      "dateFin": "2025-01-05",
+      "sessionsCompletees": 0,
+      "volumeTotal": 0,
+      "rpeMoyen": null,
+      "poidsDebut": 70,
+      "poidsFin": null,
+      "acwr": null,
+      "readiness": 50,
+      "notes": "Semaine initiale"
+    }
+  ],
+
+  "ratios": {
+    "benchSquat": 0.88,
+    "squatDeadlift": null,
+    "pushPull": null,
+    "status": {
+      "benchSquat": "warning",
+      "squatDeadlift": "unknown",
+      "pushPull": "unknown"
+    },
+    "analysis": "Bench/Squat = 0.88 (optimal: 0.75) - Haut du corps proportionnellement plus fort. Prioriser jambes."
+  },
+
+  "nutrition": {
+    "bmr": 1722,
+    "tdee": 2971,
+    "activityFactor": 1.725,
+    "cible": {
+      "calories": 3300,
+      "proteines": 140,
+      "lipides": 70,
+      "glucides": 525
+    }
+  },
+
+  "recuperation": {
+    "sommeil": {
+      "heures": 5.5,
+      "qualite": 6,
+      "status": "critical"
+    },
+    "stressLevel": null,
+    "modifier": -0.20
+  },
+
+  "progression": {
+    "niveau": "BEGINNER",
+    "tauxAttendu": 0.025,
+    "deloadFrequency": 6,
+    "rpeTarget": 8.0
+  },
+
+  "recommandations": {
+    "derniereMaj": "2025-01-22",
+    "programmeActif": "4-jours-PPL-Full",
+    "priorite1": "SOMMEIL - Augmenter a 7h+ minimum",
+    "priorite2": "Tester PR Deadlift et OHP",
+    "priorite3": "Suivre nouveau programme 4 jours",
+    "chargeAdjustment": 0,
+    "volumeAdjustment": 0,
+    "deloadRecommande": false,
+    "deloadSemaine": 6,
+    "notes": [
+      "Programme modifie: 6j -> 4j (22/01/2025)",
+      "Raison: Sommeil insuffisant (5-6h) incompatible avec 6j/sem",
+      "Volume jambes augmente (5x5 Squat prioritaire)",
+      "Frequence optimale pour recuperation",
+      "Prochaine revision: semaine 6 (deload)"
+    ]
+  },
+
+  "objectifs": {
+    "poids": {
+      "actuel": 70,
+      "cible3mois": 73,
+      "cible6mois": 75,
+      "cibleFinal": 80
+    },
+    "bench": {
+      "actuel": 75,
+      "cible6mois": 85,
+      "cibleFinal": 95
+    },
+    "squat": {
+      "actuel": 85,
+      "cible6mois": 100,
+      "cibleFinal": 110
+    }
+  }
+}

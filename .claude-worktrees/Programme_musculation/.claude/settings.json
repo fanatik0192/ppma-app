@@ -1,0 +1,30 @@
+{
+  "alwaysThinkingEnabled": true,
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(node *)",
+      "Bash(dir *)",
+      "Bash(tree *)",
+      "Bash(Copy-Item *)"
+    ],
+    "defaultMode": "default"
+  },
+  "preferences": {
+    "verbosity": "detailed",
+    "codeComments": "comprehensive",
+    "language": "fr"
+  },
+  "project": {
+    "name": "PPMA",
+    "owner": "Antoine",
+    "type": "personal-fitness-tracker",
+    "description": "Programme Prise de Masse Athletique - Suivi personnel"
+  },
+  "branding": {
+    "primaryColor": "#1A1A1A",
+    "accentColor": "#C9A962",
+    "style": "premium-gold-dark"
+  }
+}
